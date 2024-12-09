@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header class="hero">
         <div class="container">
             <div class="profile">
                 <img src="profile.jpg" alt="Photo de profil" class="profile-image">
             </div>
-            <h1>Bonjour, je suis MEZHOUD Maria</h1>
-            <p>Étudiante en Terminale Math Techniques Passionnée de développement web</p>
+            <h1>Bonjour, je suis <span class="highlight">MEZHOUD Maria</span></h1>
+            <p>Étudiante en Terminale Math Techniques passionnée par le développement web</p>
         </div>
     </header>
 
@@ -26,57 +28,59 @@
         </ul>
     </nav>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2>À propos de moi</h2>
-            <p>Je suis étudiante en Terminale Math Techniques, spécialité Génie Civil, au lycée Mohamed Seddik Ben Yahia à Bouira. Passionnée par le développement web, j’aime créer des projets innovants tout en développant mes compétences en algorithmique et programmation.</p>
-        </div>
-    </section>
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">À propos de moi</h2>
+                <p>Je suis <strong>Maria MEZHOUD</strong>, étudiante en 3ème année au lycée, passionnée par l'<strong>informatique</strong> et le <strong>développement web</strong>. Actuellement en classe de Terminale Mathématiques Techniques, je me forme de manière autonome en parallèle pour préparer ma future <strong>formation en informatique</strong> après l'obtention de mon bac.</p>
+                <p>Pour développer mes compétences, j'ai réalisé plusieurs projets pratiques, dont un <strong>portfolio</strong> moderne pour présenter mes réalisations, et une <strong>calculatrice en JavaScript</strong> pour mettre en application mes connaissances en programmation.</p>
+                <p>Ces projets sont un moyen pour moi de me perfectionner en <strong>HTML</strong>, <strong>CSS</strong>, et <strong>JavaScript</strong>, tout en me préparant à intégrer une formation d'ingénieur en informatique. Mon objectif est de continuer à apprendre et à progresser pour réussir ma carrière dans ce domaine.</p>
+            </div>
+        </section>
 
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>Mes Projets</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Portfolio</h3>
-                    <p>Création d’un portfolio en HTML et CSS, mettant en valeur mes compétences et projets.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Site Web Simple</h3>
-                    <p>Réalisation d’un site web avec une page d’accueil, une liste de projets, et une section contact.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Calculatrice JavaScript</h3>
-                    <p>Création d’une calculatrice avec interface et programmation des opérations de base.</p>
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Mes Projets</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Portfolio</h3>
+                        <p>Création d’un portfolio moderne pour mettre en avant mes compétences.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Calculatrice JS</h3>
+                        <p>Développement d'une calculatrice fonctionnelle en JavaScript.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Site Web Simple</h3>
+                        <p>Réalisation d’un site web avec une page d’accueil, liste de projets, et formulaire de contact.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2>Compétences</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Résolution de problèmes algorithmiques</li>
-                <li>Maîtrise de Word, Excel, et PowerPoint</li>
-                <li>Utilisation avancée de l'ordinateur</li>
-            </ul>
-        </div>
-    </section>
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Compétences</h2>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Word, Excel, PowerPoint</li>
+                    <li>Maîtrise des outils de développement web</li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contactez-moi</h2>
-            <p>Email : mezhoud.maria11@gmail.com</p>
-            <p>Téléphone : +213 6 74 16 19 02</p>
-        </div>
-    </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contactez-moi</h2>
+                <p>Email : mezhoud.maria11@gmail.com</p>
+                <p>Téléphone : +213 6 74 16 19 02</p>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Maria MEZHOUD. Tous droits réservés.</p>
-        </div>
+        <p>&copy; 2024 Maria MEZHOUD | Tous droits réservés</p>
     </footer>
+
 </body>
 </html>
